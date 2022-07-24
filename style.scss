@@ -1,0 +1,33 @@
+#menuIcon{
+  cursor: pointer;
+}
+#dropMenu {
+  visibility: hidden;
+  list-style: none;
+  margin-top: -10px;
+  transform: translateX(-50px);
+  width: 300px;
+  max-width: 300px;
+  min-width: 100px;
+  transition: all 0.2s;
+  cursor: pointer;
+  
+  li{
+    border: darkgray solid ;
+    border-width: 2px 2px 1.5px 0px;
+    transition: all 0.2s;
+    width: inherit;
+  }
+}
+
+#pickedColor {
+  background-color: white;
+  position: absolute;
+  transform: translateY(55px) translateX(10px);
+  
+}
+
+#menu{
+  width: fit-content;
+}
+
